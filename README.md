@@ -1,5 +1,7 @@
 # Dominoes Game (Java and Prolog programming Languages)
-I created a windows instance on AWS with a key pair to connect to my instance using a remote desktop client. Inside of this instance, I installed swi-prolog (version 9.3.7-1.x64 ), Netbeans 15 and JDK8 (All the installables are in this repository). Then, I configured environment variables for swi-prolog. Below, I add some sceenshots to show all the steps previously commented.
+I created a windows instance on AWS with a key pair to connect to my instance using a remote desktop client. Inside of this instance, I installed swi-prolog (version 9.3.7-1.x64 ), Netbeans 15 and JDK8 (All the installables are in this repository). Then, I configured environment variables for swi-prolog. 
+
+Below, I add some sceenshots to show all the steps previously commented.
 
 * Windows Version
   
