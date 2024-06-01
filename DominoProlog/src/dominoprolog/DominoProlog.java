@@ -3,22 +3,22 @@
  *
  * Created on 27 de agosto de 2006, 18:32
  */
-
-package Domino;
-import java.util.Hashtable;
-import jpl.*;
-import jpl.Query;
-
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package dominoprolog;
+import org.jpl7.*;
 /**
  *
- * Jorge Robla y Fernando Següino
+ * Jorge Robla y Fernando Seguino
  */
-public class Domino extends javax.swing.JFrame {
+public class DominoProlog extends javax.swing.JFrame {
 
     String t1 = "consult('domino.pl')";
 
     
-    public Domino() {
+    public DominoProlog() {
         initComponents();
     }
     
@@ -167,7 +167,7 @@ public class Domino extends javax.swing.JFrame {
                 Respuesta.setText(rptaTradu);
             }
             else
-                Respuesta.setText("No tiene solución.");            
+                Respuesta.setText("No tiene soluciÃ³n.");            
         }
         else
             Respuesta.setText("Verifique los cochetes.");            
@@ -177,7 +177,7 @@ public class Domino extends javax.swing.JFrame {
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Domino().setVisible(true);
+                new DominoProlog().setVisible(true);
             }
         });
         
@@ -192,3 +192,4 @@ public class Domino extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
     
 }
+
